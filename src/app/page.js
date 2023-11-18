@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Rectangle from "./images/Rectangle.png"
 import tick from "./images/tick.png"
 import mobile from "./images/mobile.png"
-import vector from "./images/vector.png"
+import vector from "./images/Vector.png"
 import answer from "./images/answer.png"
 import Link from 'next/link'
 
