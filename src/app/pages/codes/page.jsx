@@ -101,7 +101,7 @@ const page = () => {
 
       <div>
         <form onSubmit={handleSubmit}>
-          <input className='w-[400px]  h-[30px] rounded-md placeholder:text-center placeholder:font-semibold' type="text" placeholder='Enter above shown code' name="code" value={formData.code} onChange={changeHandler} />
+          <input className='w-[400px]  text-center  h-[30px] rounded-md placeholder:text-center placeholder:font-semibold' type="text" placeholder='Enter above shown code' name="code" value={formData.code} onChange={changeHandler} />
           <button className='ml-4 border-2 px-4 py-2 bg-green-500 rounded-md  ' type='submit'>Submit</button>
         </form>
       </div>
